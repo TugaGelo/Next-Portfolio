@@ -1,0 +1,112 @@
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/*========== Font and typography ==========*/
+/*.5rem = 8px | 1rem = 16px ...*/
+/*========== Font weight ==========*/
+/*========== Margenes Bottom ==========*/
+/*.5rem = 8px | 1rem = 16px ...*/
+/*========== z index ==========*/
+/*========== Mixins ==========*/
+/* Responsive typography */
+.section__title {
+  font-size: 2.25rem;
+  color: hsl(0, 0%, 20%);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 4rem;
+}
+
+.about__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
+.about__img {
+  width: 350px;
+  border-radius: 1.5rem;
+  justify-self: center;
+}
+
+.about__info {
+  grid-template-columns: repeat(3, 140px);
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.about__box {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  text-align: center;
+  padding: 0.75rem 1rem;
+}
+
+.about__icon {
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 0.5rem;
+}
+
+.about__title {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.about__subtitle {
+  font-size: 0.625rem;
+}
+
+.about__description {
+  padding: 0 2.5rem 0 0;
+  margin-bottom: 2.5rem;
+}
+
+.title {
+  text-align: center;
+  padding: 5rem 0 1rem 0;
+}
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+  .about__img {
+    width: 220px;
+  }
+  .about__box {
+    padding: 0.5rem 0.25rem;
+  }
+  .about__data {
+    text-align: center;
+  }
+  .about__info {
+    justify-content: center;
+  }
+  .about__description {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+  }
+}
+/* For extra small devices */
+@media screen and (max-width: 576px) {
+  .about__info {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .about__description {
+    padding: 0;
+  }
+}
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .about__info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}/*# sourceMappingURL=about.module.css.map */

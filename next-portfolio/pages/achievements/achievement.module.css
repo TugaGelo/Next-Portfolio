@@ -1,0 +1,75 @@
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/*========== Font and typography ==========*/
+/*.5rem = 8px | 1rem = 16px ...*/
+/*========== Font weight ==========*/
+/*========== Margenes Bottom ==========*/
+/*.5rem = 8px | 1rem = 16px ...*/
+/*========== z index ==========*/
+/*========== Mixins ==========*/
+/* Responsive typography */
+.section__title {
+  font-size: 2.25rem;
+  color: hsl(0, 0%, 20%);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 4rem;
+}
+
+.achievement__container {
+  width: 750px;
+}
+
+.achievement__card {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 3rem;
+  border-radius: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.achievement__img {
+  width: 60px;
+  border-radius: 3rem;
+  margin-bottom: 1rem;
+}
+
+.achievement__name {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.achievement__description {
+  font-size: 0.875rem;
+}
+
+.swiper-pagination-bullet {
+  background-color: hsl(0, 0%, 46%) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: hsl(0, 0%, 20%) !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  --swiper-navigation-color: $text-color !important;
+}
+
+.title {
+  text-align: center;
+  padding: 5rem 0rem 1rem 0rem;
+}
+
+@media screen and (max-width: 992px) {
+  .achievement__container {
+    width: initial;
+  }
+  .achievement__card {
+    padding: 1.25rem 1.5rem;
+  }
+}/*# sourceMappingURL=achievement.module.css.map */

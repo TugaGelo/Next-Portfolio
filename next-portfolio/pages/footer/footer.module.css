@@ -1,0 +1,74 @@
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/*========== Font and typography ==========*/
+/*.5rem = 8px | 1rem = 16px ...*/
+/*========== Font weight ==========*/
+/*========== Margenes Bottom ==========*/
+/*.5rem = 8px | 1rem = 16px ...*/
+/*========== z index ==========*/
+/*========== Mixins ==========*/
+/* Responsive typography */
+.footer {
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: 80% 10% 10%;
+  padding: 1rem 0 0.5rem;
+}
+
+.footer__principle {
+  padding: 0rem 3rem;
+}
+
+.footer__list,
+.footer__socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer__socials {
+  padding-right: 6rem;
+}
+
+.footer__link,
+.footer__socialLink {
+  color: hsl(0, 0%, 20%);
+  text-align: center;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.footer__socialLink {
+  background-color: hsl(0, 0%, 20%);
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  display: inline-flex;
+}
+
+.footer__link:hover,
+.footer__socialLink:hover {
+  color: hsl(0, 0%, 0%);
+}
+
+.footer__copy {
+  margin-top: 0.5rem;
+  color: hsl(0, 0%, 20%);
+  text-align: center;
+  font-size: 0.813rem;
+}
+
+@media screen and (max-width: 992px) {
+  .footer__socialLink {
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=footer.module.css.map */

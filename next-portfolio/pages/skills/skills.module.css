@@ -1,0 +1,106 @@
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/*========== Font and typography ==========*/
+/*.5rem = 8px | 1rem = 16px ...*/
+/*========== Font weight ==========*/
+/*========== Margenes Bottom ==========*/
+/*.5rem = 8px | 1rem = 16px ...*/
+/*========== z index ==========*/
+/*========== Mixins ==========*/
+/* Responsive typography */
+.section__title {
+  font-size: 2.25rem;
+  color: hsl(0, 0%, 20%);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 4rem;
+}
+
+.centeredContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 7rem 0 2rem 0;
+}
+
+.skills__container {
+  grid-template-columns: repeat(3, 350px);
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  justify-content: center;
+}
+@media screen and (max-width: 992px) {
+  .skills__container {
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+  }
+}
+
+.skills__content {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2rem 3rem;
+  border-radius: 1.5rem;
+}
+@media screen and (max-width: 576px) {
+  .skills__content {
+    padding: 1.5rem;
+  }
+}
+
+.skills__title {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.skills__box {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+@media screen and (max-width: 350px) {
+  .skills__box {
+    -moz-column-gap: 0.75rem;
+         column-gap: 0.75rem;
+  }
+}
+
+.skills__group {
+  display: grid;
+  align-items: flex-start;
+  row-gap: 1rem;
+}
+
+.skills__data {
+  display: flex;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+
+.skills .bx-badge-check {
+  font-size: 1rem;
+  color: hsl(0, 0%, 20%);
+}
+
+.skills__name {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 18px;
+}
+@media screen and (max-width: 350px) {
+  .skills__name {
+    font-size: 0.875rem;
+  }
+}
+
+.skills__level {
+  font-size: 0.625rem;
+}/*# sourceMappingURL=skills.module.css.map */
