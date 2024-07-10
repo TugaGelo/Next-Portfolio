@@ -1,4 +1,4 @@
-# Old Portfolio
+# Nextjs Portfolio
 
 This is my old portfolio project built with React.js. It showcases my skills, projects, and experiences as a developer.
 
@@ -33,11 +33,11 @@ This is my old portfolio project built with React.js. It showcases my skills, pr
 
 1. Clone the repository:
    ```bash
-   https://github.com/TugaGelo/React-Portfolio.git
+   https://github.com/TugaGelo/Next-Portfolio.git
 
 2. Navigate to the project directory:
    ```bash
-   cd React-Portfolio
+   cd Next-Portfolio
    
 3. Install the dependencies:
    ```bash
