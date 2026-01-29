@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './achievement.module.css';
-import { Data } from './Data';
+import { Data } from '../../components/achievements/Data';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
