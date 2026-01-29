@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './home.module.css';
-import { Socials } from '../../Components/Socials';
-import Data from '../../Components/Data';
+import { Socials } from '../../components/Socials';
+import Data from '../../components/Data';
 import ScrollDown from './ScrollDown';
 
 const Home = () => {
