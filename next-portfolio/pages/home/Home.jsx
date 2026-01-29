@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './home.module.css';
-import { Socials } from '../../components/Socials';
+import Socials from '../../components/Socials';
 import Data from '../../components/Data';
 import ScrollDown from './ScrollDown';
 
